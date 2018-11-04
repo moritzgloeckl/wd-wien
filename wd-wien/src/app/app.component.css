@@ -1,0 +1,88 @@
+.license {
+	height: 17vw;
+	width: 98vw;
+	background-color: #fff;
+	color: #333;
+}
+
+.license-border {
+	background:
+	linear-gradient(
+		to top,
+		red 0, 
+		red 33.3%,
+		white 33.3%, 
+		white 66.6%, 
+		red 66.6%, 
+		red ) top no-repeat,
+	linear-gradient(
+		to top,
+		red 0, 
+		red 33.3%,
+		white 33.3%, 
+		white 66.6%, 
+		red 66.6%, 
+		red ) bottom no-repeat;
+	background-size:100% 8px, 100% 8px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 3px #333 solid;
+}
+
+.left-banner {
+	height: 100%;
+	width: 9vw;
+	background-color: #05689F;
+	margin-left: 1vw;
+	float: left;
+}
+
+.eu-stars {
+	width: 8vw;
+	position: relative;
+	top: 1.5vw;
+	left: 0.45vw;
+}
+
+.letter {
+	width: 100%;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	font-size: 6vw;
+	margin-top: 1.5vw;
+}
+
+
+.district {
+	font-family: Miso-Bold;
+	font-size: 17vw;
+	float: left;
+	margin-top: 10%;
+	margin-left: 2%;
+	line-height: 0;
+	user-select: none;
+}
+
+.input {
+	height: 100%;
+	float: left;
+	width: 55vw;
+}
+
+input {
+	color: #333;
+	height: 100%;
+	width: 55vw;
+	float: left;
+	font-family: Miso-Bold;
+	font-size: 17vw;
+	border: none;
+	display:block;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+input:focus { 
+	outline:none;
+}
